@@ -1,0 +1,136 @@
+.image {
+  width: 292px;
+  height: 320px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+.item {
+  padding: 24px;
+  border: 1px solid var(--gray-light);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.info_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 524px;
+  overflow: hidden;
+}
+.thumb_1 {
+  display: flex;
+  justify-content: space-between;
+}
+.thumb_2 {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+.underline {
+  border-bottom: 1px solid var(--main);
+}
+.thumb_4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: var(--main);
+  display: inline;
+  max-width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.price {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: var(--main);
+  display: inline;
+}
+
+.rating {
+  display: inline;
+}
+.location {
+  display: inline;
+}
+.location_box {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+}
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  color: var(--white);
+  background-color: var(--button);
+  border: none;
+  padding: 16px 40px;
+  border-radius: 200px;
+  width: 166px;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--button-hover);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--main);
+  margin-right: 8px;
+}
+.rating_icon {
+  margin-right: 4px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  background-color: var(--badges);
+  color: var(--main);
+  border-radius: 100px;
+  padding: 12px 18px;
+  text-transform: capitalize;
+}
+
+.heart_icon,
+.heartIconFilled {
+  margin-right: 0;
+  margin-left: 12px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.heartIconFilled {
+  fill: var(--button);
+}
+
+.heart_icon:hover {
+  fill: var(--button);
+}

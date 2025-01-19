@@ -1,0 +1,54 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: calc(100vh - 72px);
+  color: var(--inputs);
+  background-image: image-set(
+    url('../../img/hero/hero_1x.jpg') 1x,
+    url('../../img/hero/hero_2x.jpg') 2x
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  background-image: image-set(
+    url('../../img/hero/hero_webp_1x.webp') 1x,
+    url('../../img/hero/hero_webp_2x.webp') 2x
+  );
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.button {
+  margin-top: 40px;
+  padding: 16px 60px 16px 60px;
+  gap: 10px;
+  border-radius: 200px;
+  color: var(--white);
+  background-color: var(--button);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  transition: var(--transition);
+}
+
+.button:hover {
+  background-color: var(--button-hover);
+}
